@@ -1,0 +1,15 @@
+.heartsymbol{
+    color: white;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    font-size: larger;
+
+}
+.heartsymbol:hover{
+    color: red;
+}
+.carddiv:hover{
+    box-shadow: 0px 0px 30px rgb(104, 103, 103);
+    transition-duration: .3s;
+}
