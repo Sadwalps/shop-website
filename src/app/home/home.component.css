@@ -1,0 +1,51 @@
+#homesubdiv1{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 20px;
+    flex-direction: column;
+}
+.learnmorebtn{
+    color: white;
+    background-color: black;
+}
+.learnmorebtn:hover{
+    color: black;
+    background-color: orange;
+}
+.heartsymbol{
+    color: white;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    font-size: larger;
+
+}
+.heartsymbol:hover{
+    color: red;
+}
+.carddiv:hover{
+    box-shadow: 0px 0px 30px rgb(104, 103, 103);
+    transition-duration: .3s;
+}
+#viewalllink{
+    color:grey ;
+    font-weight: bold;
+    font-size: larger;
+   
+}
+#viewalllink:hover{
+    color: orange;
+    transition-duration: .3s;
+}
+
+
+
+/* media query */
+@media screen and (max-width:450px) {
+    #homesubdiv1{
+    height: 30vh;
+   
+}
+    
+}

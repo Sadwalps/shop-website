@@ -1,0 +1,15 @@
+.sendbtn{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.sendbtn:hover{
+    background-color: orange;
+    transition-duration: .2s;
+}
+.contactsocial:hover{
+    color: orange;
+    transition-duration: .2s;
+
+}

@@ -1,0 +1,9 @@
+.footernavigatelinks{
+    color: white;
+    text-decoration: none;
+}
+.footernavigatelinks:hover{
+    color: rgb(118, 116, 116);
+    text-decoration: underline;
+
+}

@@ -1,0 +1,22 @@
+.navhr{ 
+    display: none;
+}
+
+.nav-link:hover .navhr{
+    background-color: rgba(250, 94, 17, 0.932) ;
+    display: block;
+    height: 7px;
+    width: 55px;
+
+}
+.nav-link{
+    height: 75px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    
+}
+.nav-link:hover{
+    color: rgba(250, 94, 17, 0.932);
+}
